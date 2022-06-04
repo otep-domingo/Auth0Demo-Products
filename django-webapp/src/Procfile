@@ -1,2 +1,2 @@
-web: gunicorn calm-fortress-79390.wsgi
+web: gunicorn store.wsgi
 release: python manage.py migrate
