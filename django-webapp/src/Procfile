@@ -1,1 +1,2 @@
-web: gunicorn calm-fortress-79390.wsgi --log-file
+web: gunicorn calm-fortress-79390.wsgi
+release: python manage.py migrate
