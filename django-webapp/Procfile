@@ -1,0 +1,1 @@
+web: gunicorn calm-fortress-79390.wsgi --log-file
